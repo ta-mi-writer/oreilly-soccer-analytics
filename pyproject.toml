@@ -1,0 +1,14 @@
+[project]
+name = "oreilly-soccer-analytics"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "marimo>=0.23.14",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.22",
+]

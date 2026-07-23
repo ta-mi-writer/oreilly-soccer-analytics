@@ -1,0 +1,29 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.23.14",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "2e42fa9bddd45dd01ca3a325bde942d8",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Hello from oreilly-soccer-analytics!\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    }
+  ]
+}
