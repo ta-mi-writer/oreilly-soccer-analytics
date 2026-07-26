@@ -1,13 +1,26 @@
 {
   "version": "1",
   "metadata": {
-    "marimo_version": "0.23.14",
-    "script_metadata_hash": null
+    "marimo_version": "0.23.15",
+    "script_metadata_hash": "319213dcf456b2a02f28e1b0b41e7c11"
   },
   "cells": [
     {
       "id": "Hbol",
-      "code_hash": "2e42fa9bddd45dd01ca3a325bde942d8",
+      "code_hash": "7f2b871f8e5d44a3660136e67a9b4390",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "8c8e6b2280ed4cf60a61d267b8b0280e",
       "outputs": [
         {
           "type": "data",
@@ -20,7 +33,7 @@
         {
           "type": "stream",
           "name": "stdout",
-          "text": "Hello from oreilly-soccer-analytics!\n",
+          "text": "Python version: 3.14.6 (main, Jun 23 2026, 15:19:34) [Clang 22.1.3 ]\nNumPy version: 2.5.1\nPandas version: 3.0.5\nMatplotlib version: 3.11.1\n",
           "mimetype": "text/plain"
         }
       ]

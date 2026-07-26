@@ -10,3 +10,6 @@ wheels/
 .venv
 
 prompt_draft.md
+.kaggle
+__marimo__/session
+.agents/skills

@@ -1,18 +1,34 @@
+# /// script
+# dependencies = [
+#     "marimo",
+#     "matplotlib>=3.10.1",
+#     "numpy>=2.2.3",
+#     "pandas>=2.2.3",
+# ]
+# requires-python = ">=3.11"
+# ///
+
 import marimo
 
 __generated_with = "0.23.14"
-app = marimo.App()
+app = marimo.App(width="medium")
 
 
 @app.cell
 def _():
-    def main():
-        print("Hello from oreilly-soccer-analytics!")
+    import sys
+    import matplotlib
+    import numpy as np
+    import pandas as pd
+    return matplotlib, np, pd, sys
 
-    def _main_():
-        main()
 
-    _main_()
+@app.cell
+def _(matplotlib, np, pd, sys):
+    print(f"Python version: {sys.version}")
+    print(f"NumPy version: {np.__version__}")
+    print(f"Pandas version: {pd.__version__}")
+    print(f"Matplotlib version: {matplotlib.__version__}")
     return
 
 
