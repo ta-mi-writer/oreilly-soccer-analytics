@@ -13,3 +13,12 @@ dependencies = [
 dev = [
     "ruff>=0.15.22",
 ]
+
+
+[tool.basedpyright]
+reportMissingImports = false
+reportUnknownArgumentType = false
+reportMissingParameterType = false
+reportUnknownParameterType = false
+reportUnknownMemberType = false
+reportUnusedCallResult = false

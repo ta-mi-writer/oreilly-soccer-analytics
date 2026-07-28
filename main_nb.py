@@ -17,9 +17,11 @@ app = marimo.App(width="medium")
 @app.cell
 def _():
     import sys
+
     import matplotlib
     import numpy as np
     import pandas as pd
+
     return matplotlib, np, pd, sys
 
 
