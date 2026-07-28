@@ -18,14 +18,14 @@ OUTPUT_DIR = Path("/kaggle/working/trimmed_videos")
 CLIPS_TO_TRIM = [
     {
         "start": "00:00:00",
-        "end": "00:19:00",
-        "output_name": "clip1_00m00s_19m00s.mp4",
+        "end": "00:00:30",
+        "output_name": "test.mp4",
     },
-    {
-        "start": "00:50:30",
-        "end": "01:00:15",
-        "output_name": "clip2_50m30s_60m15s.mp4",
-    },
+    # {
+    #     "start": "00:50:30",
+    #     "end": "01:00:15",
+    #     "output_name": "clip2_50m30s_60m15s.mp4",
+    # },
     # 必要に応じて追加してください
 ]
 
