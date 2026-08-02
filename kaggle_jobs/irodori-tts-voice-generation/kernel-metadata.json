@@ -1,0 +1,17 @@
+{
+  "id": "masashiki/irodori-tts-voice-generation",
+  "title": "Irodori TTS Voice Generation",
+  "code_file": "irodori_tts_generate.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "machine_shape": "NvidiaTeslaT4",
+  "enable_internet": "true",
+  "dataset_sources": [],
+  "kernel_sources": [
+    "masashiki/audio-separation-with-bs-roformer-revive-3e"
+  ],
+  "competition_sources": [],
+  "model_sources": []
+}
