@@ -1,0 +1,16 @@
+{
+  "id": "masashiki/ref-audio-analysis-with-whisperx",
+  "title": "Ref Audio Analysis with WhisperX",
+  "code_file": "process_ref_audio.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [],
+  "kernel_sources": ["masashiki/trimming"],
+  "competition_sources": [],
+  "model_sources": []
+}

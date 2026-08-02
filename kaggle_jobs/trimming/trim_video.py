@@ -9,7 +9,7 @@ from pathlib import Path
 
 # 元動画のパス（/kaggle/input/ 配下の動画ファイルを指定）
 # ※データセット名やファイル名はご自身のKaggleデータセットに合わせて変更してください
-INPUT_VIDEO_PATH = "/kaggle/input/snos-152/video.mp4"
+INPUT_VIDEO_PATH = "/kaggle/input/cawd-255-english-subtitle/video.mp4"
 # 出力先ディレクトリ（Kaggleで書き込み可能な作業領域）
 OUTPUT_DIR = Path("/kaggle/working/trimmed_videos")
 
@@ -17,9 +17,9 @@ OUTPUT_DIR = Path("/kaggle/working/trimmed_videos")
 # start / end は "hh:mm:ss" または "秒数"（文字列でも数値でも可）で指定します
 CLIPS_TO_TRIM = [
     {
-        "start": "00:00:00",
-        "end": "00:00:30",
-        "output_name": "test.mp4",
+        "start": "01:56:57",
+        "end": "01:57:13",
+        "output_name": "ref-raw.mp4",
     },
     # {
     #     "start": "00:50:30",
