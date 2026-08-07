@@ -16,17 +16,21 @@ OUTPUT_DIR = Path("/kaggle/working/trimmed_videos")
 # 切り出したい時間範囲のリスト
 # start / end は "hh:mm:ss" または "秒数"（文字列でも数値でも可）で指定します
 CLIPS_TO_TRIM = [
-    {
-        "start": "01:56:57",
-        "end": "01:57:13",
-        "output_name": "ref-raw.mp4",
-    },
     # {
-    #     "start": "00:50:30",
-    #     "end": "01:00:15",
-    #     "output_name": "clip2_50m30s_60m15s.mp4",
+    #     "start": "01:56:57",
+    #     "end": "01:57:13",
+    #     "output_name": "ref-raw.mp4",
     # },
-    # 必要に応じて追加してください
+    {
+        "start": "00:00:00",
+        "end": "00:04:14",
+        "output_name": "sfw.mp4",
+    },
+    {
+        "start": "01:56:12",
+        "end": "01:57:26",
+        "output_name": "sfw2.mp4",
+    },
 ]
 
 
