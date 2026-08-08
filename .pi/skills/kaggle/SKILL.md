@@ -41,3 +41,21 @@ When configuring a kernel that uses a GPU, set `machine_shape` to `NvidiaTeslaT4
 ```
 
 This ensures the kernel runs on an NVIDIA T4 GPU instance.
+
+## Kernel Output Downloads
+
+When downloading kernel outputs with `kaggle kernels output`, always save to the job's `output/` directory using the `-p` flag:
+
+```bash
+KAGGLE_API_TOKEN=$(cat .kaggle/access_token) uv run kaggle kernels output <owner>/<kernel-slug> -p ./kaggle_jobs/<job-name>/output
+```
+
+**Pattern:** The `<kernel-slug>` and `<job-name>` are typically the same (e.g., `trimming`). This keeps outputs organized alongside the job's metadata and logs.
+
+**Example:**
+
+```bash
+KAGGLE_API_TOKEN=$(cat .kaggle/access_token) uv run kaggle kernels output masashiki/trimming -p ./kaggle_jobs/trimming/output
+```
+
+This downloads output files (videos, CSVs, models, etc.) and the kernel log directly into `kaggle_jobs/trimming/output/` instead of the project root.
