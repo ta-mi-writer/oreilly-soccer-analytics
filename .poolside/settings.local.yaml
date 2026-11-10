@@ -1,7 +1,0 @@
-tools:
-    shell:
-        allow:
-            - ls *
-            - echo *
-            - find *
-            - head *
