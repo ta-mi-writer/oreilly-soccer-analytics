@@ -9,7 +9,7 @@ wheels/
 # Virtual environments
 .venv
 
-prompt_draft.md
+memo.md
 .kaggle
 __marimo__/session
 .agents/skills
