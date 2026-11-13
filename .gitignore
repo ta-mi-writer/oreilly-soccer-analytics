@@ -9,8 +9,9 @@ wheels/
 # Virtual environments
 .venv
 
-memo.md
 .kaggle
 __marimo__/session
 .agents/skills
 kaggle_jobs/*/output
+memo.md
+NOTES.md
