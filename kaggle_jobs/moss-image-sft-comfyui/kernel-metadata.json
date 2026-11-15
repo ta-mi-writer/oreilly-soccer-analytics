@@ -10,7 +10,8 @@
   "enable_internet": true,
   "machine_shape": "NvidiaTeslaT4",
   "dataset_sources": [
-    "masashiki/moss-image-sft-quantized"
+    "masashiki/moss-image-sft-quantized",
+    "masashiki/moss-image-loras"
   ],
   "competition_sources": [],
   "kernel_sources": [],
